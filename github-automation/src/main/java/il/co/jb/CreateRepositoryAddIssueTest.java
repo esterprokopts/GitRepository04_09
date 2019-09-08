@@ -24,8 +24,8 @@ public class CreateRepositoryAddIssueTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-		String username = "ronyb-jb";
-		String password = "jbaug2019";
+		String username = "p0527121595@gmail.com";
+		String password = "ester595";
 		String repositoryName = "new-repo-" + dateFormat1.format(testStartTime);
 		
 		driver.get("https://github.com");
